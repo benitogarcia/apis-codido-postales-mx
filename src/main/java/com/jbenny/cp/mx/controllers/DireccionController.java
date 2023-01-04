@@ -21,7 +21,7 @@ import com.jbenny.cp.mx.services.IMunicipioService;
 
 @RestController
 @RequestMapping("v1/direcciones")
-@CrossOrigin(origins = {"http://localhost:4200/"}, methods = {RequestMethod.GET})
+//@CrossOrigin(origins = {"http://localhost:4200/"}, methods = {RequestMethod.GET})
 public class DireccionController {
 		
 	private static final Logger LOG = LoggerFactory.getLogger(DireccionController.class);

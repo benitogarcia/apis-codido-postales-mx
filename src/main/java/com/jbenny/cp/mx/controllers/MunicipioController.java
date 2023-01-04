@@ -19,7 +19,7 @@ import com.jbenny.cp.mx.services.IMunicipioService;
 
 @RestController
 @RequestMapping("v1/municipios")
-@CrossOrigin(origins = {"http://localhost:4200/"}, methods = {RequestMethod.GET})
+//@CrossOrigin(origins = {"http://localhost:4200/"}, methods = {RequestMethod.GET})
 public class MunicipioController {
 	
 	@Autowired
